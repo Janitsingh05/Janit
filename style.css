@@ -285,3 +285,123 @@ align-items: center;
     width: 100px;
 
 }
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 10%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: inl;
+    }
+
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .foot2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foot2 ul {
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: flex-start; /* Align items to the start */
+        padding: 0 10px; /* Add padding to prevent content from touching edges */
+    }
+
+    .nav-search {
+        width: 300px; /* Reduce search bar width for smaller screens */
+    }
+
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .foot2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .foot2 ul {
+        margin-bottom: 20px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .nav-search {
+        width: 200px; /* Further reduce search bar width for mobile */
+        
+    }
+    
+    }
+
+    .hero-section {
+        height: 200px;
+        font-size: 10px;
+
+    }
+
+    .hero-sms {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    .box-img1, .box-img2, .box-img3, .box-img4, .box-img5, .box-img6, .box-img7, .box-img8 {
+        height: 150px;
+    }
+
+    .foot1, .foot3 {
+        font-size: 0.7rem;
+    }
+    .panel p{
+        height: 50px;
+        font-size: 10px;
+        display:inline;
+        justify-content: space-between;
+    }
